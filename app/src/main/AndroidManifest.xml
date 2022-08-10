@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.proyectoprogra">
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Proyectoprogra">
+        <activity android:name=".Menu"
+                android:exported="false" />
+        <activity android:name=".Login"
+            android:exported="false"/>
+        <activity android:name=".SignUp"
+            android:exported="false"/>
+        <activity android:name=".Delivery"
+            android:exported="false"/>
+        <activity android:name=".Account"
+            android:exported="false"/>
+        <activity android:name=".Search"
+            android:exported="false"/>
+        <activity android:name=".Exclusive"
+            android:exported="false"/>
+        <activity android:name=".Gaming"
+            android:exported="false"/>
+        <activity android:name=".Restaurant"
+            android:exported="false"/>
+        <activity android:name=".Cart"
+            android:exported="false"/>
+        <activity android:name=".Ejemplo"
+            android:exported="false"/>
+        <activity
+            android:name=".Entrada"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        android:src="@drawable/kfc"
+        android:scaleType="fitXY"
+        android:id="@+id/ImRestaurant"/>
+
+    <TextView
+        android:id="@+id/txtRestaurant"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="KFC"
+        android:fontFamily="@font/poppins_semiblod"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:background="@drawable/bannercomida"/>
+
+</LinearLayout>

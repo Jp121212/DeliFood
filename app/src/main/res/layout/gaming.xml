@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <View
+        android:id="@+id/view222"
+        android:layout_width="394dp"
+        android:layout_height="269dp"
+        android:layout_marginTop="16dp"
+
+        android:background="@drawable/nintendo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="150dp"
+        android:layout_height="138dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/poppins_semiblod"
+        android:text="This ranking is played against players who are shopping on our app and who are always active in their Favorite game, to win rewards, promotions and more.
+"
+        android:textColor="@color/white"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="@+id/view222"
+        app:layout_constraintTop_toTopOf="@+id/view222" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="162dp"
+        android:layout_height="244dp"
+
+        android:background="@drawable/searchview"
+
+        app:layout_constraintBottom_toBottomOf="@+id/view222"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.887"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view222"
+        app:layout_constraintVertical_bias="0.52"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="16dp"
+        android:layout_height="24dp"
+
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trofeo" />
+
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/logo"
+        android:fontFamily="@font/poppins_semiblod"
+        android:gravity="center"
+        android:text="RATING"
+        android:textColor="@color/white"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="9dp"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.197"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/estrella__1_" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="127dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semiblod"
+        android:gravity="center"
+        android:text="SugarJP.............20.000pts"
+        android:textSize="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic2"
+        android:layout_width="28dp"
+        android:layout_height="35dp"
+        android:src="@drawable/ejngznkxsaiycrk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView21"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/view2"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.018"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="16dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trofeo" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="9dp"
+        android:layout_height="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView22"
+        app:layout_constraintEnd_toEndOf="@+id/textView22"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="@+id/textView22"
+        app:layout_constraintTop_toTopOf="@+id/textView22"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@drawable/estrella__1_" />
+
+    <ScrollView
+        android:id="@+id/horizontalScrollView"
+
+        android:layout_width="394dp"
+        android:layout_height="177dp"
+
+
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        app:layout_constraintVertical_bias="0.325">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="390dp"
+                android:layout_height="202dp"
+                android:layout_marginLeft="2dp">
+
+                <ImageView
+                    android:id="@+id/ImgPrueba"
+                    android:layout_width="match_parent"
+                    android:layout_height="148dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/_01_anuncioalianza_mcdonalds_client_v2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dp"
+                    android:alpha="1"
+                    android:background="@drawable/bannercomida"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Riot x Mac Donalds"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="156dp"
+                    android:background="@drawable/logo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/_07677" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dp"
+                    android:alpha="1"
+                    android:background="@drawable/bannercomida"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="BK Gamer"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="156dp"
+                    android:background="@drawable/logo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ggggggg" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dp"
+                    android:alpha="1"
+                    android:background="@drawable/bannercomida"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="KFC Legend Combo"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="390dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="156dp"
+                    android:background="@drawable/logo"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/twitch_logo_1138x658" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="140dp"
+                    android:alpha="1"
+                    android:background="@drawable/bannercomida"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Follow Rating"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" /><![CDATA[
+                    >
+
+            ]]>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_semiblod"
+        android:text="Deli Games"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.244"
+        app:layout_constraintStart_toStartOf="@+id/view222"
+        app:layout_constraintTop_toTopOf="@+id/view222" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="48dp"
+        android:layout_height="49dp"
+        app:layout_constraintEnd_toStartOf="@+id/view2"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="@+id/view222"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        app:srcCompat="@drawable/gam" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="442dp"
+        android:layout_height="50dp"
+        android:background="@drawable/navegacion_barra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/casa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/lupa"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lupa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/carrito_de_compras"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario"
+            android:textSize="32dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/poppins_semiblod"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/navegacion_barra"
+        android:id="@+id/linearLayout7"
+        android:layout_width="413dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="75dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4422"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cart"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView441"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Account"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

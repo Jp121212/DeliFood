@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/EdtBuscar"
+        android:layout_width="367dp"
+        android:layout_height="29dp"
+        android:alpha="0.7"
+        android:background="@drawable/btnsearch"
+        android:fontFamily="@font/poppins_semiblod"
+        android:textSize="12dp"
+        android:hint="   Search"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ListView
+        android:id="@+id/listview2"
+        android:layout_width="362dp"
+        android:layout_height="457dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semiblod"
+        android:text="Available Restaurants"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EdtBuscar" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="29dp"
+        android:layout_height="21dp"
+        android:alpha="0.2"
+        app:layout_constraintBottom_toBottomOf="@+id/EdtBuscar"
+        app:layout_constraintEnd_toEndOf="@+id/EdtBuscar"
+        app:layout_constraintHorizontal_bias="0.967"
+        app:layout_constraintStart_toStartOf="@+id/EdtBuscar"
+        app:layout_constraintTop_toTopOf="@+id/EdtBuscar"
+        app:srcCompat="@drawable/lupa" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="442dp"
+        android:layout_height="50dp"
+        android:background="@drawable/navegacion_barra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/casa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/lupa"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lupa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/carrito_de_compras"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario"
+            android:textSize="32dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/poppins_semiblod"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/navegacion_barra"
+        android:id="@+id/linearLayout7"
+        android:layout_width="413dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="75dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4422"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cart"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView441"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Account"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

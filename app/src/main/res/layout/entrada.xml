@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/txtDeli"
+        android:layout_width="136dp"
+        android:layout_height="99dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Deli"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtFood"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/txtFood"
+        android:layout_width="187dp"
+        android:layout_height="97dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text=" Food"
+        android:textColor="#CC00FF"
+        android:textSize="64sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+
+    <View
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="156dp"
+        android:backgroundTintMode="screen"
+        android:foreground="@drawable/bg_header2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFood"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginEnd="324dp"
+        android:backgroundTintMode="screen"
+        android:foreground="@drawable/bg_header"
+        app:layout_constraintBottom_toTopOf="@+id/txtDeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.367"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="204dp"
+        android:layout_height="188dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginBottom="124dp"
+        android:backgroundTintMode="screen"
+        android:foreground="@drawable/bg_header2"
+        app:layout_constraintBottom_toTopOf="@+id/txtDeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:layout_width="168dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="88dp"
+        android:backgroundTintMode="screen"
+        android:foreground="@drawable/bg_header"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFood"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="56dp"
+        android:layout_height="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtDeli"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

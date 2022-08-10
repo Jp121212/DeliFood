@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="354dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view22"
+        app:layout_constraintVertical_bias="0.042">
+
+        <LinearLayout
+            android:layout_width="354dp"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="193dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp">
+
+                <ImageButton
+                    android:background="@drawable/btn1"
+                    android:scaleType="fitCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="161dp"
+                    android:src="@drawable/para_llevar"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/btn1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Delivery Free"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="33dp">
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:background="@drawable/btn1"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/file" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/btn1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Cancel Order"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp">
+
+                <ImageButton
+                    android:background="@drawable/btn1"
+                    android:scaleType="fitCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    android:src="@drawable/beneficios" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/btn1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="Benefits"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp">
+
+                <ImageButton
+                    android:background="@drawable/btn1"
+                    android:scaleType="fitCenter"
+                    android:layout_width="match_parent"
+                    android:layout_height="161dp"
+                    android:src="@drawable/hot_sale" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="160dp"
+                    android:alpha="0.8"
+                    android:background="@drawable/btn1"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:text="WeekHot"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" /><![CDATA[
+
+
+
+                    >
+
+            ]]>
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <View
+        android:id="@+id/view22"
+        android:layout_width="358dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDeli"
+        android:layout_width="132dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Deli"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintEnd_toEndOf="@+id/view22"
+        app:layout_constraintStart_toStartOf="@+id/view22"
+        app:layout_constraintTop_toTopOf="@+id/view22"
+        app:layout_constraintVertical_bias="0.188" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtFood"
+        android:layout_width="171dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text=" Pass"
+        android:textColor="#CC00FF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintEnd_toEndOf="@+id/view22"
+        app:layout_constraintStart_toStartOf="@+id/view22"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeli"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view2233"
+        android:layout_width="368dp"
+        android:layout_height="125dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="32dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginEnd="192dp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtFood"
+        app:layout_constraintEnd_toEndOf="@+id/view22"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/view22"
+        app:layout_constraintTop_toTopOf="@+id/view22"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/corona__1_" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txtFood11"
+        android:layout_width="171dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text=" Pass"
+        android:textColor="#CC00FF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view22"
+        app:layout_constraintEnd_toEndOf="@+id/view22"
+        app:layout_constraintStart_toStartOf="@+id/view22"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeli"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="235dp"
+        android:layout_height="64dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Free Trial"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2233"
+        app:layout_constraintEnd_toEndOf="@+id/view2233"
+        app:layout_constraintStart_toStartOf="@+id/view2233"
+        app:layout_constraintTop_toTopOf="@+id/view2233" />
+
+    <TextView
+        android:layout_width="99dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Only for $20 per month"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view2233"
+        app:layout_constraintEnd_toEndOf="@+id/view2233"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="@+id/view2233"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="442dp"
+        android:layout_height="50dp"
+        android:background="@drawable/navegacion_barra"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.451"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/casa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/lupa"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/lupa"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/cart"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/carrito_de_compras"
+            android:textSize="32dp"
+
+            />
+
+        <Button
+            android:id="@+id/account"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/usuario"
+            android:textSize="32dp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:fontFamily="@font/poppins_semiblod"
+            android:text="Home"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:background="@drawable/navegacion_barra"
+        android:id="@+id/linearLayout7"
+        android:layout_width="413dp"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="17dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Home"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView44"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Search"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="75dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView4422"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cart"
+            android:textColor="@color/black"/>
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="60dp"
+            android:fontFamily="@font/poppins_medium"
+            android:id="@+id/textView441"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Account"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
